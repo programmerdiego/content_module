@@ -1,0 +1,7 @@
+diegos.list:
+  path: '/admin/content/diegos'
+  defaults:
+    _title: 'Diegos title'
+    _controller: 'Drupal\diegos\Controller\DiegosController::intro'
+  requirements:
+    _permission: 'access content'
